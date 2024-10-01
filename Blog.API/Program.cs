@@ -38,5 +38,3 @@ app.MapControllers();
 app.UseCors("default");
 
 app.Run();
-
-//Test
