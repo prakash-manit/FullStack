@@ -1,0 +1,10 @@
+<div style="margin: 100px;">
+<h2 style="background-color: aqua;text-align:center;">ToDo app</h2>
+
+<input type="text" [(ngModel)]="newTask"> <button (click)="addTask()">Add Task</button> 
+
+<p *ngFor="let item of tasks">
+    &diams; {{item.task}}
+    ><button (click)="deleteTask(item.id)">Delete Task</button>
+</p>
+</div>
